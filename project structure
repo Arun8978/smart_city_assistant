@@ -1,0 +1,24 @@
+smart_city_assistant/
+├── app/
+│   ├── main.py                          # FastAPI backend entry point
+│   ├── llm/
+│   │   └── granite_llm.py               # IBM Granite LLM interaction
+│   └── api/
+│       └── chat_router.py               # Chat endpoint
+│
+├── ml/
+│   ├── anomaly_file_checker.py         # Anomaly detection script
+│   └── kpi_file_forecaster.py          # Forecasting logic
+│
+├── reports/
+│   └── report_generator.py             # Sustainability report generator
+│
+├── semantic/
+│   └── document_embedder.py            # Pinecone-based document embedding
+│
+├── smart_dashboard.py                  # Streamlit frontend script
+├── requirements.txt                    # Project dependencies
+├── style.css                           # CSS file for styling dashboard
+├── water_usage.csv                     # Sample dataset
+├── forecast_plot.png                   # Output plot from forecasting
+└── README.md                           # Project documentation (below)
